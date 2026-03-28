@@ -1,0 +1,50 @@
+[
+  {
+    "type": "image",
+    "src": "./media/left.png",
+    "duration": 15000,
+    "fit": "contain"
+  },
+  {
+    "type": "image",
+    "src": "./media/grid_signboard-1.png",
+    "duration": 8000,
+    "fit": "contain"
+  },
+  {
+    "type": "image",
+    "src": "./media/left.png",
+    "duration": 15000,
+    "fit": "contain"
+  },
+  {
+    "type": "image",
+    "src": "./media/grid_signboard-2.png",
+    "duration": 8000,
+    "fit": "contain"
+  },
+  {
+    "type": "image",
+    "src": "./media/left.png",
+    "duration": 15000,
+    "fit": "contain"
+  },
+  {
+    "type": "video",
+    "src": "./media/video1.mp4",
+    "fit": "contain",
+    "muted": true
+  },
+  {
+    "type": "image",
+    "src": "./media/left.png",
+    "duration": 15000,
+    "fit": "contain"
+  },
+  {
+    "type": "video",
+    "src": "./media/video2.mp4",
+    "fit": "contain",
+    "muted": true
+  }
+]

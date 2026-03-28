@@ -1,0 +1,42 @@
+<!-- /index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Digital Signage</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="app" aria-label="Digital signage player">
+      <div id="stage" class="stage">
+        <div id="loading" class="overlay visible">Loading playlist...</div>
+        <div id="error" class="overlay error" hidden></div>
+
+        <img
+          id="imagePlayer"
+          class="media media-hidden"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <video
+          id="videoPlayer"
+          class="media media-hidden"
+          playsinline
+          autoplay
+          muted
+          preload="auto"
+          aria-hidden="true"
+        ></video>
+
+        <div id="debugHud" class="debug-hud" hidden></div>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
